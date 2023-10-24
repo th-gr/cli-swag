@@ -7,7 +7,7 @@ class Program
     bool exit = false;
     while (!exit)
     {
-      Console.Write("Entrez une option (correct, translate, create-vite ,exit, create-note) : ");
+      Console.Write("Entrez une option (correct, translate, create-vite ,exit, create-note, check-note) : ");
       string choice = Console.ReadLine(); // Lis l'input de l'utilisateur
       switch (choice)
       {
